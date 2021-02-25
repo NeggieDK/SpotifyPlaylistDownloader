@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyDownloader", "SpotifyDownloader\SpotifyDownloader.csproj", "{09F4573B-A242-4EA4-A5F9-CD7747012D9E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B095E3B5-C85B-48F2-BEA7-2A520412B112} = {B095E3B5-C85B-48F2-BEA7-2A520412B112}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyMusicDownloader", "SpotifyMusicDownloader\SpotifyMusicDownloader.csproj", "{B095E3B5-C85B-48F2-BEA7-2A520412B112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyMusicDownloader.Tests", "SpotifyMusicDownloader.Tests\SpotifyMusicDownloader.Tests.csproj", "{61B69F39-4A93-4E1C-93E5-CFFF4FA9653B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyDownloader.Core", "SpotifyDownloader.Core\SpotifyDownloader.Core.csproj", "{74654D38-DB7F-42FA-B94D-31D8D4CEEC7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09F4573B-A242-4EA4-A5F9-CD7747012D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F4573B-A242-4EA4-A5F9-CD7747012D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F4573B-A242-4EA4-A5F9-CD7747012D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F4573B-A242-4EA4-A5F9-CD7747012D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B095E3B5-C85B-48F2-BEA7-2A520412B112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B095E3B5-C85B-48F2-BEA7-2A520412B112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B095E3B5-C85B-48F2-BEA7-2A520412B112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B095E3B5-C85B-48F2-BEA7-2A520412B112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B69F39-4A93-4E1C-93E5-CFFF4FA9653B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B69F39-4A93-4E1C-93E5-CFFF4FA9653B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B69F39-4A93-4E1C-93E5-CFFF4FA9653B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B69F39-4A93-4E1C-93E5-CFFF4FA9653B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74654D38-DB7F-42FA-B94D-31D8D4CEEC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74654D38-DB7F-42FA-B94D-31D8D4CEEC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74654D38-DB7F-42FA-B94D-31D8D4CEEC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74654D38-DB7F-42FA-B94D-31D8D4CEEC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {245D1CC2-1529-4ACD-A060-87A8B12B5625}
+	EndGlobalSection
+EndGlobal
