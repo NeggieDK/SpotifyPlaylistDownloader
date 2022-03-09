@@ -8,8 +8,8 @@ namespace SpotifyMusicDownloader
     public class SpotifyApiWrapper
     {
         private readonly SpotifyClientConfig _spotifyClientConfig;
-        private string clientId = "1c86b093763d4b74a234d2879950628c";
-        private string clientSecret = "6e5a23f5e6c64927b64cb1ad01573628";
+        private string clientId = "";
+        private string clientSecret = "";
         private ClientCredentialsTokenResponse accessToken;
 
         public SpotifyApiWrapper()
